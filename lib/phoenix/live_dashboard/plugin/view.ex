@@ -3,7 +3,6 @@ defmodule Phoenix.LiveDashboard.Plugin.Example.ViewLive do
 
   @impl true
   def mount(%{"node" => _} = params, session, socket) do
-    IO.inspect(session)
     {:ok, assign_defaults(socket, params, session), temporary_assigns: []}
   end
 

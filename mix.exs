@@ -29,7 +29,7 @@ defmodule Phoenix.LiveDashboard.Plugin.Example.MixProject do
       add_menu_link: [
         {Phoenix.LiveDashboard.Plugin.Example, :add_menu_link}
       ],
-      add_dashboard_component: [
+      add_dashboard_left_component: [
         {Phoenix.LiveDashboard.Plugin.Example, :add_dashboard_component}
       ]
     ]
